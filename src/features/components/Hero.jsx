@@ -1,10 +1,11 @@
 const Hero = () => {
   return (
     <>
-      <div className="h-[90vh] bg-[url(/src/assets/images/hero.png)] bg-cover flex items-center text-gray-800">
+      <div className="h-[90vh] bg-[url(/src/assets/image/hero.png)] bg-cover flex items-center text-gray-800">
         <div className="ml-5 sm:ml-10 md:ml-15 lg:ml-20">
-          <div className="mb-6">
-            <h1>Track Your Fitness Journey</h1>
+          <div className="mb-6 dark:text-zinc-900">
+            <h1 className="dark:text-zinc-900"
+            >Track Your Fitness Journey</h1>
             <p className="font-semibold mt-2">
               Log workouts, track progress, and stay consistent.
             </p>

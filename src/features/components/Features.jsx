@@ -13,21 +13,21 @@ const Features = () => {
       title: "Track Every Workout Effortlessly",
       description:
         "Log exercises, sets, reps, and weights in seconds. Stay consistent and never lose track of your progress again.",
-      image: "/src/assets/images/slide/logWorkout.jpg",
+      image: "/src/assets/image/slide/motivation.jpg",
     },
     {
       id: 2,
       title: "See Your Progress in Real Time",
       description:
         "Visualize strength gains, workout history, and performance trends with clean, powerful analytics.",
-      image: "/src/assets/images/slide/trackProgress.jpg",
+      image: "/src/assets/image/slide/logWorkout.jpg",
     },
     {
       id: 3,
       title: "Build Discipline. Stay Consistent.",
       description:
         "Turn your workouts into measurable progress and stay motivated with clear goals and tracking insights.",
-      image: "/src/assets/images/slide/motivation.jpg",
+      image: "/src/assets/image/slide/motivation.jpg",
     },
   ];
 
@@ -72,3 +72,5 @@ const Features = () => {
 };
 
 export default Features;
+// \src\assets\image\slide\motivation.jpg
+// \src\assets\image\slide\logWorkout.jpg
