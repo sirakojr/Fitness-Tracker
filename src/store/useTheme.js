@@ -7,4 +7,4 @@ const useTheme = create((set) => ({
   setTheme: (value) => set({ theme: value }),
 }));
 
-export default useTheme;
+export default useTheme; 

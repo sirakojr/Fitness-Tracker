@@ -39,8 +39,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-center">
-          &copy; {new Date().getFullYear()} FitnessTracker. Built by Abriham
-          Atinkut.
+          &copy; {new Date().getFullYear()} FitnessTracker. Built by Sirak
+          Tsegaye.
         </div>
       </footer>
     </>

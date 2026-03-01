@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import useTheme from "../../store/theme";
+import useTheme from "../../store/useTheme";
 const matchMedia =
   window.matchMedia &&
   window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center h-[10vh] px-6 sticky top-0 z-50 bg-white  text-zinc-900 dark:bg-zinc-900 dark:text-white border-b border-zinc-200">
         <div>
           <Link
-            to={"#"}
+            to={"/"}
             className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100"
           >
             <span>Fitness Tracker</span>
@@ -18,14 +18,14 @@ const Navbar = () => {
         </div>
         <ul className="flex gap-x-6">
           <li>
-            <Link to={`#`}>
+            <Link to={`/dashboard`}>
               <span className=" text-zinc-900 dark:text-zinc-100">
                 Dashboard
               </span>
             </Link>
           </li>
           <li>
-            <Link to={`#`}>
+            <Link to={`/workouts`}>
               <span className="text-zinc-900 dark:text-zinc-100">Workouts</span>
             </Link>
           </li>

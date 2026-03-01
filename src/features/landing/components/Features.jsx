@@ -5,6 +5,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
+import imageOne from "/assets/image/logWorkout.jpg"
+import imageTwo from "/assets/image/motivation.jpg"
+import imageThree from "/assets/image/trackProgress.jpg"
 const Features = () => {
 
   const slides = [
@@ -13,21 +16,21 @@ const Features = () => {
       title: "Track Every Workout Effortlessly",
       description:
         "Log exercises, sets, reps, and weights in seconds. Stay consistent and never lose track of your progress again.",
-      image: "/src/assets/image/slide/motivation.jpg",
+      image: imageOne,
     },
     {
       id: 2,
       title: "See Your Progress in Real Time",
       description:
         "Visualize strength gains, workout history, and performance trends with clean, powerful analytics.",
-      image: "/src/assets/image/slide/logWorkout.jpg",
+      image: imageTwo,
     },
     {
       id: 3,
       title: "Build Discipline. Stay Consistent.",
       description:
         "Turn your workouts into measurable progress and stay motivated with clear goals and tracking insights.",
-      image: "/src/assets/image/slide/motivation.jpg",
+      image:imageThree,
     },
   ];
 
